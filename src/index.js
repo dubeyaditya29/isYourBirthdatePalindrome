@@ -21,7 +21,7 @@ function clickHandler(e) {
       output.style.display = "block";
 
       if (isPalindrome) {
-        output.innerText = `Congrats!! Your Birthday is a Palindrome!`;
+        output.innerText = `Congrats!! Your Birthday is a Palindrome! Let's Party!`;
       } else {
         var [countNext, nextDate] = getNextPalindromeDate(date);
         var [countPrev, prevDate] = getPrevPalindromeDate(date);
